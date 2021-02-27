@@ -6,7 +6,7 @@ import { Post } from '~/pages/Post'
 export const App: FC = () => {
   return (
       <BrowserRouter>
-        <Routes>
+        <Routes basename="seo-playground">
           <Route path="/" element={<Home />} />
           <Route path="post" element={<Post />}></Route>
         </Routes>
