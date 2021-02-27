@@ -8,7 +8,7 @@ export const App: FC = () => {
       <BrowserRouter>
         <Routes basename="seo-playground">
           <Route path="/" element={<Home />} />
-          <Route path="post" element={<Post />}></Route>
+          <Route path="/post" element={<Post />}></Route>
         </Routes>
       </BrowserRouter>
   )
