@@ -13,7 +13,7 @@ export const Post: FC = () => {
         <title>{data.title}</title>
         <meta name="description" content={data.description}></meta>
       </Helmet>
-      <Link to="/">主页</Link>
+      <Link to="/seo-playground">主页</Link>
       <Article title={data.title} content={data.content}/>
     </>
   )
